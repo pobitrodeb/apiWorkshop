@@ -23,15 +23,12 @@ Route::resource('categories', CategoryController::class, ['except' => 'create', 
 // ======= Byer ==========
 Route::resource('product', ProductController::class, ['only' => 'index', 'show']);
 
-
 // ======= Byer ==========
 Route::resource('transactions', TransactionController::class, ['only' => 'index', 'show']);
 
 
-
 // ======= Seller ==========
 Route::resource('sellers', SellerController::class, ['only' => 'index', 'show']);
-
 
 
 
